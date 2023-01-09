@@ -13,11 +13,11 @@ ys = []
 def animate(i, xs, ys):
 
     # Read temperature (Celsius) from TMP102
-    temp_c = random.rand()
+    ytemp = random.rand()
 
     # Add x and y to lists
     xs.append(dt.datetime.now().strftime('%H:%M:%S.%f'))
-    ys.append(temp_c)
+    ys.append(ytemp)
 
     # Limit x and y lists to 20 items
     xs = xs[-20:]
