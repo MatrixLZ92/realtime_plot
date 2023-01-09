@@ -11,8 +11,6 @@ ys = []
 
 
 def animate(i, xs, ys):
-
-    # Read temperature (Celsius) from TMP102
     ytemp = random.rand()
 
     # Add x and y to lists
